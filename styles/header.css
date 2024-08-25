@@ -1,0 +1,51 @@
+header {
+  padding-block: 32px;
+
+  font: var(--text-md); 
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+  max-width: 384px;
+}
+
+#profile img {
+  max-height: 180px;
+  max-width: 180px;
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 2px solid var(--brand-color);
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-prim);
+  margin-bottom: 8px;
+}
+
+#info {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 280px;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

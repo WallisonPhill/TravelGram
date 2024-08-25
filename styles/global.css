@@ -17,16 +17,16 @@
   --text-color-second: #6C6C6C;
 
   --font-family: "Poppins", sans-Serif ;
-  --tex-lg: bold 32px/125% var(--font-family);
+  --text-lg: bold 32px/125% var(--font-family);
   --text: 16/150% var(--font-family);
-  --text-md: 14px/175% var(--font-family);
-  --text-sm: 12px/175% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
 }
 
 body {
   color: var(--text-color-second);
   background-color: var(--background-color);
-  font: var(--text);
+  font: var(--text-md);
 }
 
 a {

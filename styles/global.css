@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --brand-color: #EF5F4C;
+  --background-color: #fcfcfc;
+  --surface-color: #F5F5F5;
+  --Skeleton-color: #b8b8b8;
+  --shape-transparency: #FFFFFF8f;
+  --text-color-prim: #313131;
+  --text-color-second: #6C6C6C;
+
+  --font-family: "Poppins", sans-Serif ;
+  --tex-lg: bold 32px/125% var(--font-family);
+  --text: 16/150% var(--font-family);
+  --text-md: 14px/175% var(--font-family);
+  --text-sm: 12px/175% var(--font-family);
+}
+
+body {
+  color: var(--text-color-second);
+  background-color: var(--background-color);
+  font: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}

@@ -1,0 +1,23 @@
+.container {
+  --max-width: 21.5rem;
+  width: var(--max-width);
+  margin: .5rem;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (width >= 80em) {
+  .container {
+    --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+}
